@@ -1,0 +1,131 @@
+#logo {
+    width: 100px;    
+}
+
+header p {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 600;
+    color: #71266996;
+}
+
+#titulo {
+    font-size: 26px;
+    color: #712669;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8c4da;
+    padding: 0px 10px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.295);
+}
+
+.cinta-opciones {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 5px;
+    justify-items: center;
+    color: #ffffff;
+    font-family: 'Roboto';
+    gap: 20px;
+}
+
+.cinta-opciones p {
+    border-radius: 10px 10px 10px 0px;
+    transition: 1s;
+    font-size: 16px;
+}
+
+.cinta-opciones a {
+    text-decoration: none;
+}
+
+.cinta-opciones p:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    color: #712669;
+}
+
+#opciones {
+    justify-items: center;
+}
+
+#bud{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 20px;
+}
+
+#mision{
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    border-radius: 15px;
+    align-self: flex-start;
+}
+
+#tit {
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Roboto';
+}
+
+#text {
+    font-family: 'Roboto';
+    font-size: 21px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#bud img {
+    width: 500px;
+    border-radius: 30px;
+}
+
+#mision div {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+}
+
+#vision {
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    border-radius: 15px;
+    align-self: center;
+}
+
+#vision div {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+}
+
+#descripcion {
+    position: relative;
+    display: inline-block;
+    width: 600px;
+    border-radius: 15px;
+    align-self: end;
+}
+
+#descripcion div {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+}
