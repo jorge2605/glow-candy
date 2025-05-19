@@ -17,6 +17,11 @@ header p {
 
 
 header {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    width: 98%;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,15 +65,17 @@ header {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    margin: 20px;
+    margin: 150px 0;
 }
 
 #mision{
     position: relative;
     display: inline-block;
-    width: 500px;
+    width: 800px;
+    background-color: #eea3e5;
     border-radius: 15px;
     align-self: flex-start;
+    box-shadow: 15px 15px 15px #00000050;
 }
 
 #tit {
@@ -101,9 +108,11 @@ header {
 #vision {
     position: relative;
     display: inline-block;
-    width: 500px;
+    width: 800px;
+    background-color: #d39186;
     border-radius: 15px;
     align-self: center;
+    box-shadow: 15px 15px 15px #00000050;
 }
 
 #vision div {
@@ -111,15 +120,17 @@ header {
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 400px;
+    width: 600px;
 }
 
 #descripcion {
     position: relative;
     display: inline-block;
-    width: 600px;
+    width: 800px;
     border-radius: 15px;
     align-self: end;
+    background-color: #f9e0f1;
+    box-shadow: 15px 15px 15px #00000050;
 }
 
 #descripcion div {
@@ -128,4 +139,147 @@ header {
     left: 50%;
     transform: translate(-50%,-50%);
     width: 600px;
+}
+
+#objetivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo-arriba {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 700;
+    color: #712669;
+    letter-spacing: 5px;
+}
+
+#imagen-objetivos {
+    width: 100%;
+}
+
+#imagen-objetivos img {
+    width: 100%;
+}
+
+#imagen-objetivos {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    border-radius: 15px;
+    align-self: center;
+}
+
+#imagen-objetivos div {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0, -50%);
+    width: 100%;
+}
+
+#imagen-objetivos p {
+    font-size: 32px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #71266996;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gale{
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 700;
+    color: #712669;
+}
+
+#imagenes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+#imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px #71266996;
+    border-radius: 20px;
+}
+
+#tit-img {
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #712669;
+}
+
+#des-img {
+    font-size: 10px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #71266996;
+    margin: 10px;
+}
+
+#precio {
+    font-size: 25px ;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+#precios {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#precios-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+#p-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 24px;
+    background-color: #f8c4da;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+#p-img img {
+    border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    background-color: #313131;
+    height: 100%;
+}
+
+#tec {
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #ffffff;
 }
